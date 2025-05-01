@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Docs",
+            "detail": "Serve docs locally with Python.",
+            "command": "python3",
+            "type": "process",
+            "args":[
+                "-m",
+                "http.server",
+                "3000",
+                "--bind",
+                "127.0.0.1",
+                "--directory",
+                "./docs"
+            ],
+            "isBackground": true,
+            "problemMatcher": []
+        }
+    ]
+}
