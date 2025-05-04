@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Protoc",
+            "detail": "Compile protobuf definition file.",
+            "command": "C:/Program Files/protobuf/bin/protoc.exe",
+            "type": "process",
+            "args": [
+                "--csharp_out=src/Sparkplug",
+                "--csharp_opt=base_namespace=Org.Eclipse.Tahu.Protobuf",
+                "lib/sparkplug_b.proto"
+            ],
+            "problemMatcher": []
+        }
+    ]
+}

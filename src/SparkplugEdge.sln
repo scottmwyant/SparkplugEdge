@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SparkplugEdge", "SparkplugEdge\SparkplugEdge.csproj", "{DC2EAD15-1C21-D845-973E-9213ADBAE489}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EclipseTahu", "EclipseTahu\EclipseTahu.csproj", "{D54A0A0F-5F3D-400F-BE41-7CCCDB97A91A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC2EAD15-1C21-D845-973E-9213ADBAE489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC2EAD15-1C21-D845-973E-9213ADBAE489}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC2EAD15-1C21-D845-973E-9213ADBAE489}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC2EAD15-1C21-D845-973E-9213ADBAE489}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D54A0A0F-5F3D-400F-BE41-7CCCDB97A91A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D54A0A0F-5F3D-400F-BE41-7CCCDB97A91A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D54A0A0F-5F3D-400F-BE41-7CCCDB97A91A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D54A0A0F-5F3D-400F-BE41-7CCCDB97A91A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55319EE8-7950-4471-81DA-056892464EC3}
+	EndGlobalSection
+EndGlobal

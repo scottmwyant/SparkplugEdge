@@ -1,0 +1,8 @@
+**/bin/
+**/obj/
+**/.vs/
+
+Sparkplug_TCK_*/
+SparkplugTCKResultsCollector-*/
+SparkplugTCKResults.log
+SparkplugTCKResults_*.log
